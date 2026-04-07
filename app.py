@@ -28,3 +28,6 @@ def calculate(email):
         return str(lcm(x, y))
     except:
         return "NaN"
+@app.route('/')
+def home():
+    return "OK"
