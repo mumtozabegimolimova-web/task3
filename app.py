@@ -10,7 +10,7 @@ def gcd(a, b):
 def lcm(a, b):
     return abs(a * b) // gcd(a, b)
 
-@app.route('/mumtozabegimolimova_gmail._com', methods=['GET'])
+@app.route('/mumtozabegimolimova_gmail_com', methods=['GET'])
 def calculate():
     try:
         x = request.args.get('x')
