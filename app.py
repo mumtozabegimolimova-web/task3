@@ -11,7 +11,7 @@ def lcm(a, b):
     return abs(a * b) // gcd(a, b)
 
 @app.route('/test', methods=['GET'])
-def calculate(email):
+def calculate():
     try:
         x = request.args.get('x')
         y = request.args.get('y')
